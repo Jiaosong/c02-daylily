@@ -216,7 +216,7 @@ Design Hypothesis
 
 仓库中的 `website/assets/daylily/` 已存在项目图像资产，包括 site、market、positioning、principles、logo、symbol、palette、material、touchpoint、signage、environment 等。
 
-但是当前 [Website Release Gates](../../website/RELEASE_GATES.md) 明确记录：这些图像的 source / creator / subject-property authorization / publication scope / modification-AI status / withdrawal / release decision 尚未在仓库中闭合，因此状态仍是：
+但是当前 [Website Release Gates](https://github.com/Jiaosong/Design/blob/main/website/RELEASE_GATES.md) 明确记录：这些图像的 source / creator / subject-property authorization / publication scope / modification-AI status / withdrawal / release decision 尚未在仓库中闭合，因此状态仍是：
 
 > **UNKNOWN / below E4 / BLOCKED**
 
@@ -321,4 +321,4 @@ Concept
 - `CASE/DY`
 - old `03C`
 
-Canonical status map: [Governance Case Map](../../00-governance/case-map.md)
+Canonical status map: [Governance Case Map](https://github.com/Jiaosong/Design/blob/main/00-governance/case-map.md)
