@@ -1,0 +1,16 @@
+{
+  "schema": "oleander.project-bootstrap-locator.v0.1",
+  "project_id": "PRJ-C02-DAYLILY",
+  "project_state_ref": "file:README.md",
+  "authority_ref": "platform-file:00-governance/case-map.md#PRJ-C02-DAYLILY",
+  "repository_role": "PRIMARY",
+  "remote_identity": "https://github.com/Jiaosong/c02-daylily.git",
+  "authority_ceiling": "LOCATOR_ONLY",
+  "semantic_class": "BOOTSTRAP_LOCATOR_NOT_PROJECT_CURRENT",
+  "does_not_prove": [
+    "PROJECT_CURRENT",
+    "DESIGN_KEEP",
+    "PROFESSIONAL_PASS",
+    "PROMOTION"
+  ]
+}

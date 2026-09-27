@@ -1,0 +1,41 @@
+{
+  "schema": "oleander.project-materialization-bindings.v0.1",
+  "project_id": "PRJ-C02-DAYLILY",
+  "authority_ceiling": "PROJECT_MATERIALIZATION_BINDING_ONLY",
+  "repository": {
+    "repository_ref": "repo:.",
+    "role": "PRIMARY",
+    "remote_identity": "https://github.com/Jiaosong/c02-daylily.git"
+  },
+  "workspace": {
+    "workspace_ref": "workspace:repo-root",
+    "workspace_class": "MAIN",
+    "repository_ref": "repo:."
+  },
+  "artifact_stores": [
+    {
+      "ref": "repo:assets",
+      "state": "VERIFIED_LOCAL_PATH",
+      "semantic_class": "MATERIALIZATION_LOCATION_NOT_PROJECT_CURRENT"
+    }
+  ],
+  "artifact_store_state": "VERIFIED_LOCAL_PATHS",
+  "knowledge_mounts": [],
+  "knowledge_mount_state": "NONE_DECLARED_FOR_CURRENT_PUBLIC_STATE",
+  "migration_provenance": [
+    {
+      "source_repository": "Jiaosong/Design",
+      "source_path": "website/assets/daylily",
+      "source_commit": "10f7b54e",
+      "target_path": "assets",
+      "semantic_class": "BYTE_IDENTICAL_ASSET_MIGRATION"
+    }
+  ],
+  "does_not_prove": [
+    "PROJECT_CURRENT",
+    "KNOWLEDGE_CURRENT",
+    "DESIGN_KEEP",
+    "PROFESSIONAL_PASS",
+    "PROMOTION"
+  ]
+}
